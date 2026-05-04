@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f5e6d3, #d2a679);
+    color: #4b2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* container */
+.container {
+    text-align: center;
+}
+
+/* title */
+.title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+/* card layout */
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* card */
+.card {
+    text-decoration: none;
+    color: #4b2e2e;
+    background: #fff8f0;
+    padding: 40px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* admin beda warna */
+.admin {
+    background: #ffe0b3;
+}
+
+.admin:hover {
+    background: #ffcc80;
+}
+/* tombol kembali (pojok kiri atas) */
+.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: #fff8f0;
+    color: #4b2e2e;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.back-btn:hover {
+    background: #f0d9b5;
+}
+
+/* tombol panggil pelayan (pojok kiri bawah) */
+.call-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.call-btn:hover {
+    background: #b71c1c;
+    transform: scale(1.05);
+}
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+/* tombol kembali (pojok kiri atas) */
+.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: #fff8f0;
+    color: #4b2e2e;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.back-btn:hover {
+    background: #f0d9b5;
+}
+
+/* tombol panggil pelayan (pojok kiri bawah) */
+.call-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.call-btn:hover {
+    background: #b71c1c;
+    transform: scale(1.05);
+}
+select {
+    padding: 10px;
+    width: 270px;
+    border-radius: 8px;
+    border: none;
+}
+.menu-box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr); /* tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-grid {
+        grid-template-columns: 1fr; /* hp */
+    }
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card input {
+    width: 80px;
+    padding: 6px;
+    text-align: center;
+}
+
